@@ -22,7 +22,7 @@ return {
                 end, opts)
 
                 vim.keymap.set("n", "<leader>gm", function()
-                    vim.cmd.Git("commit -S")
+                    vim.cmd.Git("commit")
                 end, opts)
 
                 vim.keymap.set("n", "<leader>gp", function()

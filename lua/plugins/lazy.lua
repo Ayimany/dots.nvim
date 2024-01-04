@@ -27,6 +27,7 @@ local plugins = {
     require("plugins.lspformat"),
     require("plugins.telescope"),
     require("plugins.fugitive"),
+    require("plugins.leap"),
 }
 
 require("lazy").setup(plugins, opts)
