@@ -19,6 +19,10 @@ Plugins are managed through [lazy.nvim](https://github.com/folke/lazy.nvim).
 | --- | --- |
 | [rose-pine](https://github.com/rose-pine/neovim) | Theme
 | [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | Fuzzy Finder |
+| [vim-fugitive](https://github.com/tpope/vim-fugitive) | Git Managenent |
+| [leap.nvim](https://github.com/ggandor/leap.nvim) | Text Leaping |
+| [trouble.nvim](https://github.com/folke/trouble.nvim) | LSP Quick View |
+| [undotree.nvim](https://github.com/mbbill/undotree) | Undoing Stuff |
 
 ### lsp-zero plugins
 Plugins used in conjunction with lsp-zero
