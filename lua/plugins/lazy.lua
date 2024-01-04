@@ -28,6 +28,8 @@ local plugins = {
     require("plugins.telescope"),
     require("plugins.fugitive"),
     require("plugins.leap"),
+    require("plugins.trouble"),
+    require("plugins.undotree"),
 }
 
 require("lazy").setup(plugins, opts)

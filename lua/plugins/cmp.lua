@@ -16,22 +16,22 @@ return {
         cmp.setup({
             -- formatting = zero.cmp_format(),
             formatting = {
-                fields = {'abbr', 'kind', 'menu'},
-                    format = require('lspkind').cmp_format({
-                    mode = 'symbol',
+                fields = {"abbr", "kind", "menu"},
+                    format = require("lspkind").cmp_format({
+                    mode = "symbol",
                     maxwidth = 50,
-                    ellipsis_char = '...',
+                    ellipsis_char = "...",
                 })
             },
 
             mapping = cmp.mapping.preset.insert({
-                ['<C-Space>'] = cmp.mapping.complete(),
-                ['<Tab>'] = cmp_action.luasnip_supertab(),
-                ['<S-Tab>'] = cmp_action.luasnip_shift_supertab(),
-                ['<M-Tab>'] = cmp.mapping.abort(),
-                ['<CR>'] = cmp.mapping.confirm({select = true}),
-                ['<C-u>'] = cmp.mapping.scroll_docs(-4),
-                ['<C-d>'] = cmp.mapping.scroll_docs(4),
+                ["<C-Space>"] = cmp.mapping.complete(),
+                ["<Tab>"] = cmp_action.luasnip_supertab(),
+                ["<S-Tab>"] = cmp_action.luasnip_shift_supertab(),
+                ["<M-Tab>"] = cmp.mapping.abort(),
+                ["<CR>"] = cmp.mapping.confirm({select = true}),
+                ["<C-u>"] = cmp.mapping.scroll_docs(-4),
+                ["<C-d>"] = cmp.mapping.scroll_docs(4),
             })
 
         })
