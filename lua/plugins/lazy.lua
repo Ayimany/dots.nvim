@@ -30,6 +30,8 @@ local plugins = {
     require("plugins.leap"),
     require("plugins.trouble"),
     require("plugins.undotree"),
+    require("plugins.barbar"),
+    require("plugins.gitsigns"),
 }
 
 require("lazy").setup(plugins, opts)

@@ -9,7 +9,6 @@ return {
             disable_italics = true,
 
             groups = {
-                background = "#000000"
             },
 
             highlight_groups = {
